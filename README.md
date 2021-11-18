@@ -14,9 +14,9 @@ you need [fish](https://github.com/fish-shell/fish-shell) to use these scripts, 
 `git clone https://github.com/Kalitsune/shell-customisations`
  
 ### if you want to apply theses customisations to **the curent user only**:
-`cp -r ./shell-customisations/fish/functions ~/.config/fish/functions`
+`cp -r ./shell-customisations/fish/functions ~/.config/fish`
 
 ### if you want to apply theses customisations to **all users (root)**:
-`sudo cp -r ./shell-customisations/fish/functions /etc/fish/functions`
+`sudo cp -r ./shell-customisations/fish/functions /etc/fish`
 
 Congratulations, you're done !
