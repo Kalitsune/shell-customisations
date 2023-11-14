@@ -32,10 +32,10 @@ you need [fish](https://github.com/fish-shell/fish-shell) to use these scripts, 
 `git clone https://github.com/Kalitsune/shell-customisations`
  
 ### if you want to apply theses customisations to **the curent user only**:
-`cp -r ./shell-customisations/fish/functions ~/.config/fish`
+`cp -r ./shell-customisations/fish ~/.config/fish/functions`
 
 ### if you want to apply theses customisations to **all users (root)**:
-`sudo cp -r ./shell-customisations/fish/functions /etc/fish`
+`sudo cp -r ./shell-customisations/fish /etc/fish/functions`
 
 Congratulations, you're done !
 
