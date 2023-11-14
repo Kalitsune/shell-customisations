@@ -28,3 +28,6 @@ you need [fish](https://github.com/fish-shell/fish-shell) to use these scripts, 
 `sudo cp -r ./shell-customisations/fish/functions /etc/fish`
 
 Congratulations, you're done !
+
+# **GNOME Terminal**
+I use [catpuccin for gnome terminal](https://github.com/catppuccin/gnome-terminal), suit yourself. (Theme: Mocha)
