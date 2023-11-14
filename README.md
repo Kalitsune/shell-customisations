@@ -1,7 +1,15 @@
 # Kali's shell customisations
 Here you can find my customs scripts for all my shells, curently I only customised fish but maybe one day I will upload scripts for other shell too
 
-#
+# **ZSH**
+## **Overview**
+![happy cat](screens/zsh_happy_cat.png)
+![happy cat](screens/zsh_grumpy_cat.png)
+![happy cat](screens/zsh_confused_cat.png)
+the cat's face is randomized each time you launch your terminal!
+## **Installation**
+just copy the files in the [zsh directory](zsh) to your home directory.
+
 # **Fish**
 ## **Overview**
 ![Normal user preview](screens/fish_normal_user.png)
