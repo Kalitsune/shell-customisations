@@ -4,8 +4,8 @@ Here you can find my customs scripts for all my shells, curently I only customis
 #
 # **Fish**
 ## **Overview**
-![Normal user preview](fish/screens/normal_user.png)
-![Root user preview](fish/screens/root_user.png)
+![Normal user preview](screens/fish_normal_user.png)
+![Root user preview](screens/fish_root_user.png)
 
 ## **Installation**
 you need [fish](https://github.com/fish-shell/fish-shell) to use these scripts, once it's done just do:
