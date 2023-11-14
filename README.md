@@ -18,6 +18,10 @@ Download the [Pure](https://github.com/sindresorhus/pure) theme:
 ```sh
 npm install --global pure-prompt
 ```
+Download [ZSH Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
 Done! You can customize the zsh plugins as you see fit. (you should probably install the tools in [#useful-tools](#useful-tools) or disable the related plugins, you can also check out [Catpuccin for Gnome terminal](https://github.com/catppuccin/gnome-terminal) if you'd like to have the same colors than me)
 
 # **Fish**
@@ -70,4 +74,11 @@ sudo dnf install -y autojump-fish
 ANY: (may require aditional setup)
 ```sh
 sudo dnf install -y autojump
+```
+
+## LunarVim
+Vim but modded with a lot of usefull plugins, good base to start modding your vim without having to do much work. And it's usefull to have a terminal based IDE at times.
+install:
+```sh
+bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 ```
