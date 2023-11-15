@@ -7,8 +7,11 @@ source $ZSH/oh-my-zsh.sh
 source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # welcome screen
-eyes=(0 1 2 3 4 6 7 8 11 12 14)
-$ZSH/bin/cutefetch.sh -k2 $(shuf -e "${eyes[@]}" -n 1)
+fetch () {
+  eyes=(0 1 2 3 4 6 7 8 11 12 14)
+  $ZSH/bin/cutefetch.sh -k2 $(shuf -e "${eyes[@]}" -n 1)
+}
+fetch
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -40,7 +43,8 @@ export EDITOR="lvim"
 #
 # Example aliases
 alias zshconfig="lvim ~/.zshrc"
-alias ohmyzsh="lvim ~/.oh-my-zsh"
+alias fixyubikey="sudo systemctl restart pcscd.service"
+alias clear="clear && fetch"
 
 autoload -U promptinit; promptinit
 prompt pure
