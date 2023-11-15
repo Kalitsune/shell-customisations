@@ -20,7 +20,7 @@ help_info() {
     echo "    [MODE]:"
     echo "        -h, --help: print this help message"
     echo "        -k, --kitty: show kitty ascii art with sysinfo"
-    echo "        -k2, --kitty2: show kitty ascii art with sysinfo"
+    echo "        -k2, --kitty2: show kitty ascii art with sysinfo (2nd variant)"
     echo "        -b, --bunny: show bunny ascii art with sysinfo"
     echo "        -d, --doggy: show doggy ascii art with sysinfo"
     echo "        -p, --pingu: show penguin ascii art with sysinfo"
@@ -77,6 +77,7 @@ kittyfetch() {
     echo "             $c4$n$t  $net"
 }
 
+# sysinfo with cute kitty (2nd variant) 
 kittyfetch2() {
     echo "   /'._           $c1$w$t  $wm"
     echo "  ($(eyes $1) 7          $c3$k$t  $kern"
@@ -135,7 +136,7 @@ init() {
     readonly v=$'\e[7m' # swap text and background colours
 
     # icons for the sysinfo
-    readonly w="" # window manager
+    readonly w="♥" # window manager
     readonly k="" # kernel
     readonly s="" # shell
     readonly r="" # resolution
