@@ -76,7 +76,7 @@ ANY: (may require aditional setup)
 sudo dnf install -y autojump
 ```
 
-## LunarVim
+## [LunarVim](https://www.lunarvim.org/)
 Vim but modded with a lot of usefull plugins, good base to start modding your vim without having to do much work. And it's usefull to have a terminal based IDE at times.
 install:
 ```sh
