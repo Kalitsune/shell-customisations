@@ -47,14 +47,14 @@ Congratulations, you're done !
 I use [catpuccin for gnome terminal](https://github.com/catppuccin/gnome-terminal), suit yourself. (Theme: Mocha)
 
 # **Usefull Tools**
-dowload all (Fedora)
+install all (Fedora)
 ```sh
-sudo dnf install -y thefuck autojump-zsh
+sudo dnf install -y thefuck autojump-zsh tealdeer fzf
 ```
 ## [TheFuck](https://github.com/nvbn/thefuck)
 If you made a mistake while typing your command and it returns an error, you can press `esc` two times (or type `fuck`) and it will fix it for you.
 
-dowload : (Fedora)
+install : (Fedora)
 ```sh
 sudo dnf install -y thefuck
 ```
@@ -62,7 +62,7 @@ sudo dnf install -y thefuck
 Remembers the folder you went to a lot and let you type `j name` to automatically open this folder.
 For example if I go to my Docs folder often (`~/Documents`), I can just go to it by typing `j docs` (or even `j d` if its a folder I use a hella lot)
 
-download: (Fedora)
+install: (Fedora)
 ZSH:
 ```sh
 sudo dnf install -y autojump-zsh
@@ -81,4 +81,19 @@ Vim but modded with a lot of usefull plugins, good base to start modding your vi
 install:
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+```
+
+## [Tealdeer](https://github.com/dbrgn/tealdeer)
+Tealdeer is a cool cli tool that gives short, pretty and easy to read instructions about how to use some commands, it's litteraly the TLDR version of the manual (available through the `tldr` command)
+install : (Fedora)
+```sh
+sudo dnf install -y tealdeer
+```
+
+## [Fuzzy Finder](https://github.com/junegunn/fzf)
+Fzf (Fuzzy Finder) is a CLI tool similar to the find command that allows you to type the name of your files and find them very easiliy using the `fzf` command.
+
+install : (Fedora)
+```sh
+sudo dnf install -y fzf
 ```
