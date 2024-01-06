@@ -11,6 +11,7 @@ plugins=(
   thefuck
   aliases
   kubectl
+  zsh-autosuggestions
 )
 
 # User configuration
