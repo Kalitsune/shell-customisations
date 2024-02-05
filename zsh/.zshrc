@@ -12,12 +12,14 @@ plugins=(
   aliases
   kubectl
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 # User configuration
 
 PATH="/home/fanny/.local/bin:/home/fanny/bin:$PATH"
 PATH="/home/fanny/.local/bin/platform-tools:$PATH"
+PATH="/home/fanny/.platformio/penv/bin:$PATH"
 export PATH
 export EDITOR="lvim"
 

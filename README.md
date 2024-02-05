@@ -4,8 +4,8 @@ Here you can find my customs scripts for all my shells, curently I only customis
 # **ZSH**
 ## **Overview**
 ![happy cat](screens/zsh_happy_cat.png)
-![happy cat](screens/zsh_grumpy_cat.png)
-![happy cat](screens/zsh_confused_cat.png)
+![grumpy cat](screens/zsh_grumpy_cat.png)
+![confused cat](screens/zsh_confused_cat.png)
 the cat's face is randomized each time you launch your terminal!
 ## **Installation**
 backup your `.zshrc` (and `.oh-my-zsh/` if it exists)
@@ -21,6 +21,10 @@ npm install --global pure-prompt
 Download [ZSH Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+Download [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting):
+```sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 Done! You can customize the zsh plugins as you see fit. (you should probably install the tools in [#useful-tools](#useful-tools) or disable the related plugins, you can also check out [Catpuccin for Gnome terminal](https://github.com/catppuccin/gnome-terminal) if you'd like to have the same colors than me)
 
