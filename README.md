@@ -1,6 +1,8 @@
 # Kali's shell customisations
 Here you can find my customs scripts for all my shells, curently I only customised fish but maybe one day I will upload scripts for other shell too
 
+> [!important]
+> This repository is outdated, please check out my [dotfiles](https://github.com/Kalitsune/dotfiles) repository for more recent configurations
 # **ZSH**
 ## **Overview**
 ![happy cat](screens/zsh_happy_cat.png)
